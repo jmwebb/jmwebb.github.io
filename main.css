@@ -125,11 +125,13 @@ a:focus {
 	    min-height: 325px;
 	}
 }
-
-@media (max-width: 700px) {
+@media (max-width: 700px) and (orientation: portrait) {
 	#main-background {
 		background-position: -250px;
 	}
+}
+
+@media (max-width: 700px) {
 	.light_overlay {
 	    top: 15%;
 	    width: 70%;
