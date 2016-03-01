@@ -19,6 +19,7 @@ h1 {
 
 h3 {
 	color: #8C1515 !important;
+	margin-top: 10px !important;
 	font-family: 'Source Sans Pro', sans-serif !important;
 }
 
@@ -54,7 +55,7 @@ p {
 }
 
 .light_overlay i {
-	margin: 10px auto;
+	margin: 20px auto 10px auto;
 	display: block;
 	font-size: 2.2em;
 }
@@ -77,8 +78,8 @@ p {
 	color: #8C1515 !importants;
 }
 
-.learn_more_container:active {
-	outline: none !important;
+a:focus {
+  outline: inherit !important;
 }
 
 .learn_more_container span {
@@ -126,6 +127,9 @@ p {
 }
 
 @media (max-width: 700px) {
+	#main-background {
+		background-position: -250px;
+	}
 	.light_overlay {
 	    top: 15%;
 	    width: 70%;
