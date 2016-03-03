@@ -19,7 +19,7 @@ h1 {
 
 h3 {
 	color: #8C1515 !important;
-	margin-top: 10px !important;
+	margin-top: 0px !important;
 	font-family: 'Source Sans Pro', sans-serif !important;
 }
 
@@ -96,6 +96,16 @@ a:focus {
 	display: none;
 }
 
+.big {
+	font-size: 1.5em;
+}
+
+.grey {
+	color: #333;
+	opacity: 0.9;
+	margin-left: 8px;
+}
+
 /* Responsive styling */
 @media (max-width: 1080px) {
 	.light_overlay {
@@ -117,6 +127,13 @@ a:focus {
 @media (max-width: 850px) {
 	.light_overlay {
 	    min-height: 300px;
+	}
+	.big {
+		font-size: 1.2em;
+	}
+	.grey {
+		margin-left: 3px;
+		font-size: 0.8em;
 	}
 }
 
@@ -162,5 +179,12 @@ a:focus {
 	    top: 8%;
 	    width: 80%;
 	    margin-left: 10%;
+	}
+	.big {
+		font-size: 1em;
+	}
+	.grey {
+		margin-left: 3px;
+		font-size: 0.6em;
 	}
 }
