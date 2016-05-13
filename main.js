@@ -6,7 +6,7 @@ $( ".learn_more_container" ).click(function(e) {
     }, 1500, "swing"); 
 });
 
-$('#countdown').countdown('2016/05/20', function(event) {
+$('#countdown').countdown('2016/05/13', function(event) {
 	$("#days").html(event.offset.days);
 	$("#hours").html(event.offset.hours);
 	$("#minutes").html(event.offset.minutes);
