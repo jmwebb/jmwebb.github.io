@@ -1,0 +1,71 @@
+body {
+	padding-top: 50px;
+  }
+
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+  
+.navbar {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+#main-navbar {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  background-image: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#main-navbar a {
+  color: #999;
+}
+
+#main-navbar .active a {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  color: #000;
+}
+
+
+#prof-pic {
+  border-radius:50%;
+  width:240px;
+  height:240px;
+}
+
+.timespan {
+  width: 16%;
+  color: #bbb;
+  text-align: right;
+}
+
+.ico {
+  vertical-align: top;
+  border-left: 2px solid #cfcfcf;
+}
+
+.timeline-dot {
+  position: relative;
+  top: 4px;
+  left: -20px;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #cfcfcf;
+  border: 2px solid white;
+}
+
+.timeline-ico {
+  position: relative;
+  top: -15px;
+}
