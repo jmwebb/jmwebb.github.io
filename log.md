@@ -1,0 +1,4 @@
+## June 27, 2026
+Built [vault2anki](https://github.com/jmwebb/vault2anki), a small tool for converting Obsidian notes (my preferred note app) into Anki cards (my preferred flashcard app). Should be useful as I do more reading for my other projects. Built mostly using Codex. 
+
+Next I want to set up a daily briefing to provide some coaching and reading materials. I tried doing this with ChatGPT, but it has no good way of updating its own resource files. So my plan is to manage those files locally, and set up some kind of cron job to use the OpenAI API to produce the briefing. Wish there was a ChatGPT API so I could get more personalized responses. Oh well.
